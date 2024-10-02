@@ -1,11 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
-* {
+body {
     background-color: #faf9f5;
+    font-size: 14px;
     font-family: "DM Serif Display", serif;
-    color: rgb(0, 0, 0);
+    color: #000000;
   }
-.container {
-    padding: 50px 0;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+  position: relative;
+  color: #222;
+}
+
+p {
+  font-size: 16px;
+  color: #000000;
+  line-height: 26px;
+}
+
+.section-title {
+  position: relative;
+  text-align: center;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
