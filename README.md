@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
-* Group ID: *Your Group ID here*
-* Project Name: *Your Project Name here*
+* Name: Nguyễn Hoàng Trung
+* ID: 22BI13437
+* Group ID: 4
+* Project Name: Personal Porfolio Website
