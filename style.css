@@ -8,18 +8,13 @@ body {
   background-color: #faf9f5;
 }
 
-.container {
-  display: flex;
-  flex-flow: column wrap;
-}
-
 nav {
   justify-content: space-around;
   display: flex;
   width: 100%;
   height: 80px;
   font-weight: bold;
-  flex-flow: row wrap;
+  border-bottom: 1px solid gray;
 }
 
 nav ul li {
@@ -29,16 +24,17 @@ nav ul li {
 
 nav ul li a {
   font-family: DM Serif Display, serif;
-  color: black;
+  color: gray;
   text-decoration: none;
   font-size: 18px;
   margin: 0 24px;
-  padding: 0px 5px;
+  padding: 5px 10px;
+  border-radius: 8px;
 }
 
 nav ul li a:hover {
-  background-color: rgb(24, 23, 23);
-  color: #faf9f5;
+  background-color: rgb(228, 228, 228);
+  transition: ease-in-out 0.2s;
 }
 
 .logo {
@@ -106,6 +102,26 @@ nav ul li a:hover {
   padding: 0px;
 }
 
+.skills-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.skill-block {
+  width: 20%;
+  margin: 0 40px;
+  padding: 20px 30px;
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.skill-block p {
+  font-family: DM Serif Display, serif;
+}
+
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -120,7 +136,17 @@ nav ul li a:hover {
     justify-content: center;
   }
 
-  .title {
-    margin-top: 5px;
+  .content {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .content .descriptions{
+    margin-top: 30px;
+  }
+
+  .skills-section{
+    flex-direction: column;
   }
 }
+
