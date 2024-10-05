@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   margin: 0;
@@ -137,3 +139,43 @@ main {
   }
 }
 
+footer {
+  border-top: 1px solid gray;
+  width: 90%;
+  margin: 30px 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_box {
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_box h2 {
+  font-family: DM Serif Display, Serif;
+}
+
+.footer_box p {
+  font-family: "Raleway", sans-serif;
+}
+
+.contact-link {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+.contact-icon {
+  width: 22px;
+  height: auto;
+}
