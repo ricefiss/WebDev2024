@@ -104,23 +104,22 @@ main {
 }
 
 .skills-section {
-  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .skill-block {
-  width: 20%;
-  margin: 0 40px;
-  padding: 20px 30px;
+  padding: 20px;
   border: 2px solid black;
   border-radius: 16px;
+  text-align: center;
+  width: 150px;
 }
 
 .skill-block p {
-  font-family: DM Serif Display, serif;
+  font-family: 'DM Serif Display', serif;
 }
 
 @media (max-width: 768px) {
@@ -129,21 +128,8 @@ main {
     height: auto;
   }
 
-  .logo {
-    text-align: center;
-  }
-
-  nav ul {
-    justify-content: center;
-  }
-
   .content {
     flex-direction: column;
-    height: auto;
-  }
-
-  .content .descriptions{
-    margin-top: 30px;
   }
 
   .skills-section{
