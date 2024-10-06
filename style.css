@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
@@ -8,6 +7,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #faf9f5;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
@@ -39,6 +40,7 @@ nav ul li a:hover {
   transition: ease-in-out 0.2s;
 }
 
+
 .logo {
   font-family: DM Serif Display, serif;
   margin-left: 10px;
@@ -47,96 +49,66 @@ nav ul li a:hover {
   font-size: 26px;
 }
 
-main {
+.title {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
+  width: 100%;
 }
 
-.title-section h1 {
-  font-family: 'DM Serif Display', serif;
-  margin: 20px 0;
-}
-
-.about-section {
+.block {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  margin: 5% 0;
+  padding: 0px;
   align-items: center;
-  margin: 40px 0;   
+  justify-content: center;
 }
 
-.content {
+.block p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.block h2 {
+  margin: 0px 30px;
+  font-family: DM Serif Display, serif;
+}
+
+.box {
   display: flex;
-  justify-content: space-between;
+  width: 35%;
+  margin: 0 30px;
+  padding: 30px 40px;
   align-items: center;
-  width: 80%;
-  flex-wrap: wrap;
+  border: 1px solid gray;
 }
 
 .avatar {
-  flex: 1;
-  text-align: center;
-}
-
-.avatar img {
-  border-radius: 8%;
-  max-width: 100%;
+  width: 50%;
   height: auto;
-}
-
-.descriptions {
-  flex: 1;
-  padding: 20px;
-}
-
-.descriptions p {
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-.descriptions ul {
-  list-style: none;
-  padding: 0;
-}
-
-.descriptions ul li {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.skills-section {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
+  align-items: center;
+  margin: 0;
+  object-fit: cover;
 }
 
-.skill-block {
-  padding: 20px;
-  border: 2px solid black;
-  border-radius: 16px;
-  text-align: center;
-  width: 150px;
+.introduction {
+  padding: 0% 2%;
+  width: 50%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-.skill-block p {
-  font-family: 'DM Serif Display', serif;
-}
-
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .content {
-    flex-direction: column;
-  }
-
-  .skills-section{
-    flex-direction: column;
-  }
+.introduction p {
+  font-family: "Raleway", sans-serif;
+  width: 80%;
+  font-size: 18px;
+  margin: 0;
+  padding: 0px;
 }
 
 footer {
