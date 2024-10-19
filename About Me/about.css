@@ -72,16 +72,16 @@ nav ul li a:hover {
 }
 
 .block h2 {
-  margin: 0px 20px;
   font-family: DM Serif Display, serif;
 }
 
 .box {
   display: flex;
-  width: 35%;
-  margin: 0 30px;
-  padding: 30px 40px;
+  width: 550px;
+  margin: 0 40px;
+  padding: 30px;
   align-items: center;
+  justify-content: space-around;
   border: 2px solid gray;
 }
 

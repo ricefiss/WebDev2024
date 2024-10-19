@@ -48,7 +48,7 @@ nav ul li a:hover {
 .contact-section {
   width: 100%;
   max-width: 600px;
-  padding: 26px 12%;
+  padding: 10px 12%;
   background-size: 90% auto;
   text-align: center;
   margin: auto;
@@ -149,13 +149,6 @@ nav ul li a:hover {
   margin-left: 10px;
 }
 
-.button-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
 .contact-btn {
   padding: 10px 20px;
   background-color: #333;
@@ -189,8 +182,9 @@ nav ul li a:hover {
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
-  margin-top: 0.5rem;
+  gap: 1rem;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .contact-link {

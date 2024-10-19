@@ -124,8 +124,8 @@ nav ul li a:hover {
 }
 
 .block_page img {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -166,9 +166,9 @@ nav ul li a:hover {
 }
 
 .box {
-    width: 17%;
+    width: 300px;
     border: 2px solid gray;
-    border-radius: 12%;
+    border-radius: 16px;
     padding: 22px 70px;
     margin: 10px 80px;
     justify-content: center;
@@ -180,7 +180,6 @@ nav ul li a:hover {
 .box h2 {
     font-family: DM Serif Display, serif;
     color: rgb(88, 88, 88);
-    width: 100%;
 }
 
 .sub_box {
