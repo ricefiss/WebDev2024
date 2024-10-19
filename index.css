@@ -124,11 +124,10 @@ nav ul li a:hover {
 }
 
 .block_page img {
-    width: 30%;
-    height: 80%;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     border-radius: 50%;
-
 }
 
 .block {
