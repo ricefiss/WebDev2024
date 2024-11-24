@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #faf9f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.logo {
+  font-family: DM Serif Display, serif;
+  margin-left: 10px;
+  color: black;
+  line-height: 80px;
+  font-size: 26px;
+}
+
+nav {
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 50px;
+}
+
+nav ul li a {
+  font-family: DM Serif Display, serif;
+  color: gray;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 24px;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+nav ul li a:hover {
+  background-color: rgb(228, 228, 228);
+  transition: ease-in-out 0.2s;
+  ;
+}
+
+.contact-section {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px 12%;
+  background-size: 90% auto;
+  text-align: center;
+  margin: auto;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-size: 18px;
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+}
+
+.normal-text {
+  font-family: "DM Serif Display", serif;
+  font-style: normal !important;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: "DM Serif Display", serif;
+  color: #333;
+}
+
+.textarea-field {
+  width: 570px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  color: #333;
+}
+
+.input-field::placeholder,
+.textarea-field::placeholder {
+  font-family: "DM Serif Display", serif;
+  font-style: italic;
+  color: #888;
+}
+
+.textarea-field {
+  resize: none;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  font-family: "DM Serif Display", serif;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #555;
+}
+
+.submit-icon {
+  width: 20px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.contact-btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.contact-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #555;
+}
+
+.contact-link:hover {
+  background-color: #faf9f5;
+  border-color: #333;
+}
+
+.contact-icon {
+  width: 10px;
+  height: auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  transition: background-color 0.3s, border-color 0.3s;
+  text-align: center;
+}
+
+.contact-link:hover {
+  background-color: #faf9f5;
+  border-color: #333;
+}
+
+.contact-icon {
+  width: 24px;
+  height: auto;
+}

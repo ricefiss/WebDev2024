@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./contact/contact.css">
+    <link rel="shortcut icon" href="./contact/images/cv.png" type="image/x-icon">
+
+    <style>
+        .dm-serif-display-regular {
+            font-family: "DM Serif Display", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .dm-serif-display-regular-italic {
+            font-family: "DM Serif Display", serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <label class="logo">John Doe </label>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Me</a></li>
+            <li><a href="./project.html">Projects</a></li>
+            <li><a href="./experience.html">Experience</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="contact" class="contact-section">
+        <h2 class="subtitle dm-serif-display-regular">Get in touch</h2>
+        <p class="description dm-serif-display-regular">I'd love to hear from you! If you have any questions, comments,
+            or feedback, please use the form below &hearts; </p>
+
+        <form method="POST" action="https://api.web3forms.com/submit" class="contact-form">
+            <input type="hidden" name="access_key" value="41d8£510-7944-4ebc-99£d-200b93e4bd66">
+
+            <div class="form-group">
+                <input type="text" placeholder="Enter your name" class="input-field" required name="name">
+                <input type="email" placeholder="Enter your email" class="input-field" required name="email">
+            </div>
+            <textarea rows="6" placeholder="Enter your message" class="textarea-field" required
+                name="message"></textarea>
+
+            <button class="submit-btn">Submit now
+                <img src="./contact/images/right-arrow-white.png" alt="Submit" class="submit-icon">
+            </button>
+        </form>
+    </div>
+
+    <div class="button-container">
+        <a href="mailto:egroup4@gmail.com" class="contact-link">
+            <img src="./contact/images/email-icon.png" alt="Email Icon" class="contact-icon">
+
+        </a>
+        <a href="https://www.linkedin.com" class="contact-link">
+            <img src="./contact/images/linkedin-icon.png" alt="LinkedIn Icon" class="contact-icon">
+
+        </a>
+        <a href="https://www.instagram.com/" class="contact-link">
+            <img src="./contact/images/instagram-icon.jpeg" alt="Email Icon" class="contact-icon">
+        </a>
+    </div>
+</body>
+
+</html>

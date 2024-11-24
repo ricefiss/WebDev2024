@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Experiences</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./experience/experience.css">
+    <link rel="shortcut icon" href="./experience/image/cv.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav>
+        <label class="logo">John Doe </label>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Me</a></li>
+            <li><a href="./project.html">Projects</a></li>
+            <li><a href="./experience.html">Experience</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Experience <span>Explore My Experience</span></h1>
+    <div class="experience-box">
+        <div class="frontend">
+            <h2>Frontend Development</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="skill-details">
+                        <div class="skill-name">HTML</div>
+                        <div class="skill-level">Experienced</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="skill-details">
+                        <div class="skill-name">CSS</div>
+                        <div class="skill-level">Experienced</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="skill-details">
+                        <div class="skill-name">SASS</div>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="skill-details">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-level">Basic</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="skill-details">
+                        <div class="skill-name">TypeScript</div>
+                        <div class="skill-level">Basic</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="skill-details">
+                        <div class="skill-name">Material UI</div>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="backend">
+            <h2>Backend Development</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="skill-details">
+                        <div class="skill-name">PostgreSQL</div>
+                        <div class="skill-level">Basic</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="skill-details">
+                        <div class="skill-name">Node JS</div>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="skill-details">
+                        <div class="skill-name">Express JS</div>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-check-circle"></i>
+                    <div class="skill-details">
+                        <div class="skill-name">Git</div>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_box">
+            <h2>Phone</h2>
+            <p>123-456-7890</p>
+        </div>
+        <div class="footer_box">
+            <h2>Email</h2>
+            <p>abcdxyz@gmail.com</p>
+        </div>
+        <div class="footer_box">
+            <h2>Follow me</h2>
+            <a href="https://www.linkedin.com" class="contact-link">
+                <img src="./image/linkedin-icon.png" alt="LinkedIn Icon" class="contact-icon">
+            </a>
+            <a href="https://www.instagram.com/" class="contact-link">
+                <img src="./image/instagram-icon.jpeg" alt="Instagram Icon" class="contact-icon">
+            </a>
+        </div>
+        <div class="footer_box">
+            <p>@2024 by Group 4</p>
+            <p>Powered by RedBull</p>
+        </div>
+    </footer>
+    <script>
+        const skillItems = document.querySelectorAll('.skill-item');
+
+        skillItems.forEach(item => {
+            item.addEventListener('mouseover', function () {
+                this.querySelector('.skill-level').style.color = 'blue';
+            });
+            item.addEventListener('mouseout', function () {
+                this.querySelector('.skill-level').style.color = '#777';
+            });
+        });
+    </script>
+</body>
+
+</html>

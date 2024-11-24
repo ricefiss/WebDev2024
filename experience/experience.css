@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'DM Serif Display', serif;
+    background-color: #faf9f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+nav ul li a {
+    font-family: DM Serif Display, serif;
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 24px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(228, 228, 228);
+    transition: ease-in-out 0.2s;
+    ;
+}
+
+
+.logo {
+    font-family: DM Serif Display, serif;
+    margin-left: 10px;
+    color: black;
+    line-height: 80px;
+    font-size: 26px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+h1 span {
+    font-size: 1.2rem;
+    color: #777;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.experience-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1400px;
+    width: 70%;
+}
+
+.frontend,
+.backend {
+    width: 48%;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    min-height: 45px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.skill-item {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.skill-item i {
+    color: black;
+    font-size: 1.7rem;
+    margin-right: 15px;
+}
+
+.skill-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.skill-level {
+    font-size: 1rem;
+    color: #777;
+}
+
+footer {
+    border-top: 1px solid gray;
+    width: 90%;
+    margin: 30px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_box {
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_box h2 {
+    font-family: DM Serif Display, Serif;
+}
+
+.footer_box p {
+    font-family: "Raleway", sans-serif;
+}
+
+.contact-link {
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.contact-icon {
+    width: 22px;
+    height: auto;
+}
